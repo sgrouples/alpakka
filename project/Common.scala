@@ -23,7 +23,7 @@ object Common extends AutoPlugin {
     homepage := Some(url("https://github.com/akka/alpakka")),
     scmInfo := Some(ScmInfo(url("https://github.com/akka/alpakka"), "git@github.com:akka/alpakka.git")),
     developers += Developer("contributors", "Contributors", "https://gitter.im/akka/dev", url("https://github.com/akka/alpakka/graphs/contributors")),
-
+    version := "0.8.1-sgrouples",
     licenses := Seq(("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))),
 
     crossVersion := CrossVersion.binary,

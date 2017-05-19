@@ -21,6 +21,7 @@ lazy val alpakka = project
              sse,
              xml)
   .settings(
+    version := "0.8.1-sgrouples",   
     onLoadMessage :=
       """
         |*** Welcome to the sbt build definition for Alpakka! ***
@@ -161,7 +162,6 @@ lazy val sqs = project
   .in(file("sqs"))
   .enablePlugins(AutomateHeaderPlugin)
   .settings(
-    version := "0.8.1-sgrouples",
     name := "akka-stream-alpakka-sqs",
     Dependencies.Sqs
   )
